@@ -1,0 +1,54 @@
+:root {
+  /* COLORS */
+  --primary: #4caf50;  
+  --secondary: #dfdfdf;
+  --accent: #F9B432;
+  --white: #fff;
+  --black: #000;
+  --background: #131620;
+  --dark: #131620;
+
+  /* TEXT COLORS */
+  --text-default: #3b3b3b;
+
+
+  /* HEIGHTS */
+  --header: 60px;
+
+
+  /* TYPOGRAPHY */
+  p, h1, h2, h3 {
+    margin: 0;
+  }
+
+  h1, h2, h3 {
+    color: var(--accent);
+  }
+
+  p {
+    color: var(--text-default);
+  }
+
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url('/public/assets/fonts/Oswald-Regular.ttf') format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: 'oswald';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: #2196f3;
+}

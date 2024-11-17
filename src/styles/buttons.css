@@ -1,0 +1,12 @@
+.btn-primary-sm {
+    padding: 10px 20px 10px 20px;
+    background-color: var(--accent);
+    border: none;
+    border-radius: 5px;
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.btn-primary-sm:hover {
+    color: var(--white);
+}

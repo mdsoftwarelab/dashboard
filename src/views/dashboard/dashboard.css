@@ -1,0 +1,36 @@
+.dashboard-container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.dashboard-sidepanel-container {
+    background-color: var(--background);
+}
+
+.dashboard-sidepanel-header {
+    height: var(--header);
+    border-bottom: 1px solid var(--black);
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-content-container {
+    background-color: var(--secondary);
+}
+
+.dashboard-content-header {
+    height: var(--header);
+    background-color: var(--white);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-right: 15px;
+}
+
+.account-toolbar-container {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+}

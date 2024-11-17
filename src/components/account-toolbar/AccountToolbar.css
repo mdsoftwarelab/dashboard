@@ -1,0 +1,10 @@
+.account-toolbar {
+    display: grid;
+    grid-template-columns: auto 50px 100px;
+    align-items: center;
+    justify-items: end
+}
+
+.account-toolbar-settings {
+    display: flex;
+}
