@@ -2,11 +2,13 @@
   /* COLORS */
   --primary: #4caf50;  
   --secondary: #dfdfdf;
+  --blue: #192759;
   --accent: #F9B432;
   --white: #fff;
   --black: #000;
   --background: #131620;
   --dark: #131620;
+  --lightGrey: #9d9d9d;
 
   /* TEXT COLORS */
   --text-default: #3b3b3b;
@@ -51,4 +53,9 @@ code {
 
 h1 {
   color: #2196f3;
+}
+
+/* OVERRIDES */
+.ql-snow .ql-tooltip {
+  left: 0!important;
 }

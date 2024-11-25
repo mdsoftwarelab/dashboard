@@ -34,3 +34,18 @@
     height: 100%;
     align-items: center;
 }
+
+.outlet-container {
+    height: 85vh;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 95%;
+    padding-top: 1em;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.outlet-container::-webkit-scrollbar {
+    display: none;
+}

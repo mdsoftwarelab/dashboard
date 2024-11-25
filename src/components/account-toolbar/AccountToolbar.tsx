@@ -8,13 +8,13 @@ const AccountToolbar:FC = () => {
 
     return (
         <div className="account-toolbar">
-            <div className="account-toolbar-profile">
+            <div>
                 <p>Welcome, Dean the man!</p>
             </div>
-            <div className="account-toolbar-settings">
+            <div>
                 <UserIcon height={30} fill="var(--text-default)"/>
             </div>
-            <div className="account-toolbar-logout">
+            <div>
                 <button className="btn-primary-sm" onClick={logout}>logout</button>
             </div>
         </div>

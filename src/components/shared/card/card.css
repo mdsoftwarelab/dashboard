@@ -1,0 +1,19 @@
+.card-section {
+    border-radius: 5px;
+    width: 85%;
+    height: auto;
+    background-color: var(--white);
+}
+
+.card-heading {
+    padding: 8px 0 8px 0;
+    border-bottom: 1px solid var(--secondary);
+}
+
+.card-title {
+    margin-left: 1em;
+}
+
+.card-content {
+    padding: 1em 0 1em 0;
+}
