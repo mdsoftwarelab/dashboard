@@ -1,0 +1,59 @@
+.post-create-container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.title-input {
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    width: 99%;
+    line-height: 1.5em;
+    color: var(--text-default);
+    border-bottom: 1px solid var(--lightGrey);
+}
+
+.title-input:focus {
+    outline: none;
+    border-bottom: 1px solid var(--text-default);
+}
+
+
+.card-container {
+    width: 100%;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-upload-container {
+    width: 100%;
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-upload-section {
+    border-radius: 20px;
+    width: 85%;
+    height: 150px;
+    border: 2px dashed var(--lightGrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slug-text-container {
+    height: 45px;
+}
+
+.slug-text {
+    font-size: 0.9em;
+    color: #19198b;
+    text-decoration: underline;
+}

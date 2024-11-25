@@ -10,3 +10,16 @@
 .btn-primary-sm:hover {
     color: var(--white);
 }
+
+.btn-secondary-sm {
+    padding: 10px 20px 10px 20px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary);
+    cursor: pointer;
+}
+
+.btn-secondary-sm:hover {
+    color: var(--white);
+}

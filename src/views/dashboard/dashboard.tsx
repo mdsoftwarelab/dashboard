@@ -1,8 +1,7 @@
-import React, { FC } from "react";
+import React, { FC } from 'react'
 import './dashboard.css'
-import { useAuth } from "../../utils/AuthProvider";
-import { Outlet } from "react-router-dom";
-import AccountToolbar from "../../components/account-toolbar/AccountToolbar";
+import { Outlet } from 'react-router-dom'
+import AccountToolbar from '../../components/account-toolbar/AccountToolbar'
 
 
 const Dashboard:FC = () => {
@@ -43,7 +42,9 @@ const Dashboard:FC = () => {
                         <AccountToolbar />
                     </div>
                 </div>
-                <Outlet />
+                <div className="outlet-container">
+                    <Outlet />
+                </div>
             </div>
         </div>
     )
